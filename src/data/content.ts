@@ -13,7 +13,7 @@ export const HERO = {
   preHeadline: "Psicóloga Clínica · Magíster · 23+ Años de Experiencia",
   headline: "Mereces sentirte escuchado/a y encontrar la calma que necesitas",
   subHeadline:
-    "Terapia psicológica virtual y presencial para individuos, parejas y familias. Desde Caucasia para toda Colombia.",
+    "Terapia psicológica virtual y presencial para niños, jóvenes, adultos, parejas y familias. De Antioquia para el mundo.",
   ctaPrimary: "Escríbeme por WhatsApp",
   ctaSecondary: "Conoce mis servicios",
   trustBadges: [
@@ -59,8 +59,8 @@ export const SERVICES = {
       title: "Terapia Individual",
       phrase: "A veces cargar solo/a con todo se vuelve insostenible. No tiene que ser así.",
       description:
-        "Un espacio confidencial y sin juicios donde trabajamos juntos tus emociones, pensamientos y conductas para que recuperes tu bienestar emocional.",
-      forWhom: "Adultos y jóvenes con ansiedad, depresión, duelo, estrés, crisis emocionales o dificultades en relaciones.",
+        "Un espacio confidencial y sin juicios donde trabajamos juntos tus emociones, pensamientos, comportamientos y tu manera de relacionarte para que recuperes tu bienestar emocional.",
+      forWhom: "Niños, jóvenes y adultos con ansiedad, depresión, duelo, estrés, crisis emocionales o dificultades en relaciones.",
       modality: "Virtual y presencial",
       icon: "user",
     },
@@ -69,7 +69,7 @@ export const SERVICES = {
       phrase: "Cuando la comunicación se rompe, el amor necesita herramientas para reconstruirse.",
       description:
         "Un espacio seguro para que ambos puedan expresarse, entenderse y trabajar juntos en fortalecer su relación.",
-      forWhom: "Parejas que buscan mejorar su comunicación, superar crisis o reconectarse emocionalmente.",
+      forWhom: "Parejas que buscan mejorar su comunicación, sus relaciones íntimas y sexuales, superar crisis o reconectarse emocionalmente.",
       modality: "Virtual y presencial",
       icon: "heart",
     },
@@ -83,11 +83,11 @@ export const SERVICES = {
       icon: "family",
     },
     {
-      title: "Terapia para Adolescentes",
-      phrase: "La adolescencia es un camino complejo. Tu hijo/a no tiene que recorrerlo sin apoyo.",
+      title: "Terapia para Niños y Adolescentes",
+      phrase: "La niñez y la adolescencia es un camino complejo. Tu hijo/a no tiene que recorrerlo sin apoyo.",
       description:
-        "Un espacio adaptado a las necesidades de los jóvenes, donde pueden expresarse libremente y encontrar orientación.",
-      forWhom: "Adolescentes con dificultades emocionales, problemas de identidad, conflictos familiares o escolares.",
+        "Un espacio adaptado a las necesidades de los niños y jóvenes, donde pueden expresarse libremente y encontrar orientación.",
+      forWhom: "Niños y adolescentes con dificultades emocionales, problemas de identidad, conflictos familiares o escolares.",
       modality: "Virtual y presencial",
       icon: "star",
     },
@@ -119,7 +119,7 @@ export const HOW_IT_WORKS = {
     {
       number: 1,
       title: "Escríbeme por WhatsApp",
-      description: "Cuéntame brevemente qué te trae aquí. Sin compromiso.",
+      description: "Escríbeme para agendar tu cita. Sin compromiso.",
       icon: "message",
     },
     {
@@ -146,7 +146,7 @@ export const HOW_IT_WORKS = {
     { icon: "clock", text: "Sesiones de 50-60 minutos" },
     { icon: "calendar", text: "Frecuencia semanal o quincenal" },
     { icon: "lock", text: "Total confidencialidad garantizada" },
-    { icon: "payment", text: "Transferencia, Nequi, Daviplata" },
+    { icon: "payment", text: "Transferencia Bancolombia" },
   ],
 };
 
@@ -166,7 +166,7 @@ export const FAQ = {
     {
       question: "¿Cuánto dura una sesión y cuántas sesiones necesitaré?",
       answer:
-        "Cada sesión dura entre 50 y 60 minutos. La cantidad de sesiones depende de tu situación particular y tus objetivos. Algunas personas experimentan mejoría en pocas sesiones, mientras que otros procesos requieren un acompañamiento más prolongado. Esto lo evaluamos juntos.",
+        "Cada sesión dura entre 50 y 60 minutos, sin embargo existe la posibilidad de agendar citas de 2 horas. La cantidad de sesiones depende de tu situación particular y tus objetivos. Algunas personas experimentan mejoría en pocas sesiones, mientras que otros procesos requieren un acompañamiento más prolongado. Esto lo evaluamos juntos.",
     },
     {
       question: "¿Qué plataforma usamos para las sesiones virtuales?",
@@ -181,12 +181,12 @@ export const FAQ = {
     {
       question: "¿Cuál es la diferencia entre psicólogo, psiquiatra y coach?",
       answer:
-        "El psicólogo clínico se enfoca en terapia conversacional y técnicas psicológicas para tratar problemas emocionales y de comportamiento. El psiquiatra es un médico que puede recetar medicamentos. El coach se enfoca en metas y desarrollo personal. En mi caso, integro la psicología clínica con herramientas de coaching y PNL para ofrecerte un acompañamiento integral.",
+        "El psicólogo clínico se enfoca en terapia conversacional y técnicas psicológicas para tratar problemas emocionales y de comportamiento; en sí es un profesional de salud mental que atiende los conflictos individuales como producto de procesos internos, contexto social y relaciones interpersonales. El psiquiatra es un médico especialista que puede realizar valoración, diagnóstico y medicación. El coach se enfoca en metas y desarrollo personal. En mi caso, integro la psicología clínica con herramientas de coaching y PNL para ofrecerte un acompañamiento integral.",
     },
     {
       question: "¿Atiendes niños y adolescentes?",
       answer:
-        "Sí, atiendo adolescentes y trabajo con sus familias. Tengo amplia experiencia en esta etapa del desarrollo, incluyendo mi tesis de Maestría sobre la adolescencia. Para el caso de menores de edad, es necesario el consentimiento y participación de los padres o tutores.",
+        "Sí, atiendo niños, adolescentes y trabajo con sus familias. Tengo amplia experiencia en esta etapa del desarrollo, incluyendo mi tesis de Maestría sobre la adolescencia. Para el caso de menores de edad, es necesario el consentimiento y participación de los padres o tutores.",
     },
     {
       question: "¿Cómo es la primera sesión?",
@@ -226,8 +226,6 @@ export const TESTIMONIALS = {
   ],
   institutions: [
     "Universidad de Antioquia",
-    "Universidad del Norte",
-    "Colegio Mayor de Antioquia",
     "Hospital Mental de Antioquia",
     "ESE CARISMA",
     "Alcaldía de Medellín",

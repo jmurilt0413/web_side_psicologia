@@ -16,6 +16,12 @@ export default function Hero() {
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-display font-bold text-text leading-tight mb-6">
               {HERO.headline}
             </h1>
+            <p className="text-xs sm:text-sm text-text-light mb-2 flex items-center justify-center lg:justify-start gap-1">
+              <svg aria-hidden="true" className="w-4 h-4 text-primary shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+              </svg>
+              Consultorio: {CONTACT.address}
+            </p>
             <p className="text-base sm:text-lg text-text-light leading-relaxed mb-8 max-w-xl mx-auto lg:mx-0">
               {HERO.subHeadline}
             </p>
